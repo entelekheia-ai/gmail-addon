@@ -132,6 +132,7 @@ it carries nothing private.
 The source is not public. This repository is where the extension is released and where its issues are
 filed; the code lives in a private repository.
 
-**No licence has been published yet**, which means no permission to use, copy or redistribute has
-been granted in writing. That is an omission being corrected, not a position — if you need the terms
-in writing before installing it, open an issue and ask.
+**No licence has been published yet, and personal use is permitted** — install it and use it on your
+own mailbox. Nothing beyond that has been granted: redistributing it, modifying it or using it
+commercially are not covered by that permission. A published licence is coming; until it is here,
+this paragraph is what there is. If you need terms in writing before installing, open an issue.
