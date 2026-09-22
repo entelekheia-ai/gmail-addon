@@ -1,10 +1,10 @@
 <h1 align="center">Cerrado — Gmail Graph</h1>
 
 <p align="center">
-  <b>Your mailbox as a landscape, drawn inside Gmail itself.</b><br>
-  A browser extension that adds one item to Gmail's own navigation rail. Select it and the message
-  list is covered by a map of who writes to you and what your mail is made of — read entirely from
-  the page Gmail has already drawn.
+  <b>A mail client whose first view is a map — as an extension, inside the Gmail you already use.</b><br>
+  It adds one item to Gmail's own navigation rail. Select it and the message list is covered by a
+  WebGPU landscape of who writes to you and what your mail is made of, with lenses that cut the same
+  mailbox different ways. Everything it draws is read from the page Gmail has already rendered.
 </p>
 
 <p align="center">
@@ -16,14 +16,19 @@
   <a href="#what-it-does">What it does</a> ·
   <a href="#what-it-reads-and-where-that-goes">Privacy</a> ·
   <a href="#known-limits">Known limits</a> ·
-  <a href="https://github.com/entelekheia-ai/gmail-addon/issues">Report something</a>
+  <a href="https://daniloborg.es/experiment/mail-graph/">Try it without installing</a>
 </p>
 
-![The landscape: territories of mail, each cluster a correspondent](landscape.png)
+<p align="center">
+  <a href="https://daniloborg.es/experiment/mail-graph/"><b>See it running, before installing anything →</b></a>
+</p>
 
-<sub>The same landscape, rendered here by the standalone harness over a <b>generated</b> mailbox —
-"Projeto Alpha" and everyone in it are invented. Inside Gmail the picture is the same and the frame
-is Gmail's own.</sub>
+[![The landscape: territories of mail, each cluster a correspondent](landscape.png)](https://daniloborg.es/experiment/mail-graph/)
+
+<sub>That link opens the same engine on a <b>generated</b> mailbox — 2,078 invented conversations,
+"Projeto Alpha" and everyone in it made up. It is the experiment this extension came out of, so the
+frame around the map is its own rather than Gmail's; the map is the same map, drawn by the same
+code.</sub>
 
 ## Why
 
@@ -37,7 +42,12 @@ sorting by arrival is the opposite of the grouping that would answer them.
 
 So this draws the mailbox instead. Correspondents are nodes, conversations pull them together, and
 the regions they settle into are the territories your mail actually has, rather than the folders you
-once made.
+once made. A *lens* then cuts that one map several ways without moving anything — the geography stays
+put, and what stands out changes.
+
+It began as an experiment in rendering a graph as **landscape** rather than as a diagram of dots and
+lines, which is what the [live preview](https://daniloborg.es/experiment/mail-graph/) still is. This
+extension is that experiment pointed at real mail.
 
 ## Install
 
